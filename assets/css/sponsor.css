@@ -1,0 +1,43 @@
+.sponsor {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sponsor__content {
+    margin: 3rem 0;
+    width: 45%;
+}
+
+.sponsor__title {
+    color: #ce0a00;
+    font-size: 22pt;
+    text-transform: uppercase;
+}
+
+.sponsor__figure {
+    width: 50%;
+}
+
+.sponsor__image {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+@media screen and (min-width: 0) {
+    .sponsor {
+        padding: 0 2rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .sponsor {
+        padding: 0 4rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .sponsor {
+        padding: 0 8rem;
+    }
+}

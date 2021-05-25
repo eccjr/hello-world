@@ -1,0 +1,49 @@
+.quotes {
+    background-color: #222222;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.quotes__card {
+    margin-bottom: 2rem;
+}
+
+.quotes__text {
+    color: #ffffff;
+    font-size: 12pt;
+    font-weight: 400;
+    line-height: 18pt;
+}
+
+.quotes__author {
+    color: #ce0a00;
+    font-size: 14pt;
+    text-transform: uppercase;
+}
+
+@media screen and (min-width: 0) {
+    .quotes {
+        padding: 3rem 2rem;
+    }
+
+    .quotes__card {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .quotes {
+        padding: 3rem 4rem;
+    }
+
+    .quotes__card {
+        width: 30%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .quotes {
+        padding: 3rem 8rem;
+    }
+}

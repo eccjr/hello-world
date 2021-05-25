@@ -1,0 +1,29 @@
+.app {
+    display: grid;
+    font-family: 'Oswald', Arial, 'Courier New', Courier, serif;
+    grid-template-areas: 'page-header' 'page-content' 'page-footer';
+}
+
+.header {
+    background: url('../img/banner.jpg') no-repeat center;
+    background-position: center center;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.9);
+    grid-area: page-header;
+    padding-bottom: 2rem;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.content {
+    grid-area: page-content;
+}
+
+.footer {
+    color: #222222;
+    grid-area: page-footer;
+    margin: 1.5rem 0;
+    text-align: center;
+}
