@@ -74,7 +74,24 @@ Exemplo: customizando os elementos cuja classe são iguais a `background`.
 A documentação da Mozilla sobre o CSS possui todos os tipos de seletores e todas as propriedades existentes:
 https://developer.mozilla.org/pt-BR/docs/Web/CSS
 
-## 3. Curso de Flex Box
+## 3. Unidades do CSS
+
+O  css possui várias unidades. Você provavelmente já usou a mais básica que é a px, porém, ela não é a mais recomendada de se usar.
+
+Não fique muito preocupado com este assunto desde já, pois é algo que se pega com o tempo e a prática.
+
+Abaixo são explicadas três das mais usadas. Se estiver em dúvida sobre qual usar, vá de rem e sem problemas.
+
+- rem: Relativo ao font-size do elemento raiz (definido pelo navegador). Geralmente, o font-size raiz é 16px, logo, 2rem é o equivalente a 32px. O motivo desta ser a unidade mais utilizada é que os usuários podem querer que os sites que acessam tenham fontes maiores ou menores dependendo da preferência (aumentar de 16px para 32px caso tenha algum problema de vista), e o rem se adapta a isto.
+
+- %: Relativa ao elemento pai. Por exemplo, se tivermos uma div com width de 30rem, e dentro dela colocarmos outra com width de 50%, esta terá uma largura de 15rem.
+
+- em: Relativo ao font-size do elemento. Diferente do rem, ele se baseia ao font-size do elemento criado, como um botão por exemplo. Podemos definir o padding de um botão utilizando esta unidade, e, assim, sempre que mudarmos seu font-size, a proporção entre o tamanho da fonte e o padding será a mesma.
+
+Se quiser entrar em mais detalhes sobre este assunto, esse vídeo será útil: https://www.youtube.com/watch?v=N5wpD9Ov_To
+
+
+## 4. Curso de Flex Box
 
 Flex Box é um Layout do CSS 3 que permite criar elementos responsivos em uma página apenas com código CSS.
 
