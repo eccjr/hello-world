@@ -111,5 +111,8 @@ Divirtam-se e se precisar de alguma ajuda, procurem algum membro antigo da eccjr
 
 ## Materiais complementares :3
 
+SASS é uma linguagem de extensão do CSS que facilita muit o desenvolvimento:
+https://www.youtube.com/watch?v=BaI8dHUthLA
+
 O Mozilla Web Docs traz um guia sobre Flex Box que pode ser muito útil:
 https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox
