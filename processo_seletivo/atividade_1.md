@@ -51,6 +51,8 @@ Por fim, crie um repositório com nome "hello-world" no GitHub e siga os mesmos 
 
 Em seguida, utilize os comandos apresentados no vídeo para publicar o seu repositório local no repositório criado no Github.
 
+Utilize esse repositório para dar commit nas atividades do processo seletivo.
+
 Pontos a serem esclarecidos
 
 - Como clonar um repositório remoto do Github?
