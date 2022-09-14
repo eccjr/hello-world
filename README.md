@@ -64,3 +64,41 @@ Durante o processo, são realizadas 8 atividades:
 7. [Atividade 7 - Outras funcionalidade do JavaScript](/processo_seletivo/atividade_7.md)
 
 8. [Atividade 8 - Requisições e respostas HTTP e AJAX](/processo_seletivo/atividade_8.md)
+
+
+## Cursos gratuitos aprovados
+<br>
+
+`Cursos front-end`
+
+- [HTML & CSS Full Course - Beginner to Pro 2022](https://www.youtube.com/watch?v=G3e-cpL7ofc&list=WL&index=3&t=62s)
+
+- [React Crash Course for Beginners 2021 - Learn ReactJS from Scratch in this 100% Free Tutorial!](https://www.youtube.com/watch?v=Dorf8i6lCuk)
+
+`Cursos Back-end`
+
+   - [Curso de Node.js completo com Typescript, Jest, TDD, Github...](https://www.youtube.com/watch?v=W2ld5xRS3cY&list=PLz_YTBuxtxt6_Zf1h-qzNsvVt46H8ziKh&index=2&ab_channel=WaldemarNeto-DevLab)
+
+`Cursos UX/UI`
+
+- [UX / UI: Fundamentos para o design de interface Gratuito](https://www.coursera.org/learn/ux-ui-design-de-interface)
+
+- [UX Fiap on](https://on.fiap.com.br/local/programaeucapacito/)
+
+- [UX e UI Design Tim Tec](https://cursos.timtec.com.br/course/ux-e-ui-design/intro)
+
+`Cursos figma`
+
+- [Figma - Criando interfaces do zero até o protótipo final](https://www.cursae.com.br/cursos/figma-criando-interfaces-do-zero-ate-o-prototipo-final)
+
+<br>
+
+## Cursos pagos aprovados (confia no vintão)
+<br>
+
+`Cursos front-end`
+- [Curso Web Moderno Completo com JavaScript 2022 + Projetos](https://www.udemy.com/course/curso-web/)
+
+`Cursos de front-end e back-end`
+
+- [Cursos de Maximilian Schwarzmüller instrutor da udemy](https://www.udemy.com/user/maximilian-schwarzmuller/)
