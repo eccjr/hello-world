@@ -11,13 +11,10 @@ Para instalar no Windows/Mac/Linux basta entrar no site https://code.visualstudi
 No Windows/Mac execute o instalador e faça a instalação.
 
 Já no Linux, abra o terminal na pasta em que está o arquivo que você baixou, e execute o seguinte comando:
-$ sudo apt install ./ARQUIVO_BAIXADO.deb
 
 <!--sec data-title="Your first command: OS X and Linux" data-id="OSX_Linux_whoami" data-collapse=true ces-->
 
-{% filename %}command-line{% endfilename %}
-
-    $ whoami
+    $ sudo apt install ./ARQUIVO_BAIXADO.deb
     
 
 <!--endsec-->
