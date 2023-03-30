@@ -83,3 +83,5 @@ Para gerenciar rotas em nossa aplicação, devemos criar um Router, que é a ent
 ```javascript
 const router = Router()
 ```
+
+Quando acessamos qualquer tipo de site, estamos fazendo uma requisição do tipo GET
