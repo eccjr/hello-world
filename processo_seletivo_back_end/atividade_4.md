@@ -72,4 +72,8 @@ app.listen(port, () => {
 
 Esta linha inicia o servidor e faz ele rodar na porta definida anteriormente. O método "listen" é um método do objeto "app" que inicia o servidor. Quando o servidor é iniciado, a função de callback é executada e exibe uma mensagem no console indicando que o servidor está rodando na porta definida.
 
-Para praticar, faça você mesmo!
+Para praticar, faça você mesmo! Crie um arquivo index.js e copie o código que é mostrado acima. Para executar o código, basta digital no terminal:
+
+```bash
+node ./index.js
+```
