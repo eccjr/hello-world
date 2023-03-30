@@ -77,3 +77,5 @@ Para praticar, faça você mesmo! Crie um arquivo index.js e copie o código que
 ```bash
 node ./index.js
 ```
+
+Pare testar se a aplicação está funcionando, entre no seu navegador no link http://localhost:8080, onde 8080 é a porta que escolhemos para o servidor local rodar, a mensagem que você deve receber na tela é 'Cannot GET /', fique tranquilo a respeito disso, isso deve ser resolvido em breve quando te introduzirmos ao conceito de Rotas.
