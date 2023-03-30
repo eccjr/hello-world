@@ -49,21 +49,21 @@ O Processo seletivo e capacitação na eccjr é feito anualmente e abrange conce
 
 Durante o processo, são realizadas 8 atividades:
 
-1. [Atividade 1 - Git e Github](/processo_seletivo/atividade_1.md)
+1. [Atividade 1 - Git e Github](/processo_seletivo_front_end/atividade_1.md)
 
-2. [Atividade 2 - HTML](/processo_seletivo/atividade_2.md)
+2. [Atividade 2 - HTML](/processo_seletivo_front_end/atividade_2.md)
 
-3. [Atividade 3 - CSS e Flex Box](/processo_seletivo/atividade_3.md)
+3. [Atividade 3 - CSS e Flex Box](/processo_seletivo_front_end/atividade_3.md)
 
-4. [Atividade 4 - Prática Flex Box](/processo_seletivo/atividade_4.md)
+4. [Atividade 4 - Prática Flex Box](/processo_seletivo_front_end/atividade_4.md)
 
-5. [Atividade 5 - Introdução ao JavaScript](/processo_seletivo/atividade_5.md)
+5. [Atividade 5 - Introdução ao JavaScript](/processo_seletivo_front_end/atividade_5.md)
 
-6. [Atividade 6 - Manipulação do DOM com JavaScript](/processo_seletivo/atividade_6.md)
+6. [Atividade 6 - Manipulação do DOM com JavaScript](/processo_seletivo_front_end/atividade_6.md)
 
-7. [Atividade 7 - Outras funcionalidade do JavaScript](/processo_seletivo/atividade_7.md)
+7. [Atividade 7 - Outras funcionalidade do JavaScript](/processo_seletivo_front_end/atividade_7.md)
 
-8. [Atividade 8 - Requisições e respostas HTTP e AJAX](/processo_seletivo/atividade_8.md)
+8. [Atividade 8 - Requisições e respostas HTTP e AJAX](/processo_seletivo_front_end/atividade_8.md)
 
 
 ## Cursos gratuitos aprovados
