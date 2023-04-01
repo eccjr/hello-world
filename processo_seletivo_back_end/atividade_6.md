@@ -81,7 +81,69 @@ Todos conhecemos o site da Google, o motor de pesquisa mais famoso do mundo, O l
 Para gerenciar rotas em nossa aplicação, devemos criar um Router, que é a entidade responsável por gerenciar todas as rotas da nossa aplicação. Para isso, basta acrescentar a seguinte linha de código após o `app.use(cors)`:
 
 ```javascript
-const router = Router()
+const router = express.Router()
 ```
 
-Quando acessamos qualquer tipo de site, estamos fazendo uma requisição do tipo GET
+Por padrão, quando acessamos qualquer site pelo navegador, toda informação visual que recebemos é retornada pelo método GET. Então vamos criar uma rota do tipo get na nossa aplicação utilizando o seguinte comando:
+
+```javascript
+router.get(
+    '/',
+    (req, res) => {
+        const mensagem = 'Olá mundo';
+        res.send(mensagem)
+    }
+)
+```
+
+A rota é definida através do método GET do objeto router, que recebe dois parâmetros:
+A string '/', que define o caminho da rota como a raiz do servidor.
+Uma função que recebe dois parâmetros, req e res, que representam a requisição e a resposta HTTP, respectivamente. Nesse caso, a função simplesmente envia a string "Olá mundo" como resposta usando o método send do objeto res.
+Quando essa rota é acessada pelo navegador ou por outra aplicação cliente, o servidor responde com a string "Olá mundo".
+
+E por fim, devemos indicar para a nossa aplicação que vamos utilizar as rotas definidas no nosso router:
+
+```javascript
+app.use(router)
+```
+
+O código final deverá ficar semelhante a esse:
+
+```javascript
+const express = require('express')
+const cors = require('cors');
+
+const app = express()
+
+app.use(cors())
+
+const router = express.Router();
+
+router.get(
+    '/',
+    (req, res) => {
+        const mensagem = 'Olá mundo';
+        res.send(mensagem)
+    }
+)
+
+app.use(router)
+
+const port = 8080
+
+app.listen(port, () => {
+    console.log('Servidor rodando na porta ' + port)
+})
+```
+
+Por fim, vamos testar se a nossa rota está funcionando, vamos rodar a aplicação usando o comando `node ./index.js`, onde `index.js` é o nome do seu arquivo, e vamos acessar o localhost pelo seu navegador e vamos ver a mensagem que nos é retornada, que deve ser a seguinte:
+
+![Imagem da rota padrão](imagens/1.png)
+
+## 3. Atividade
+
+Crie uma aplicação em Node.JS que utilize o Framework Express.JS e crie 3 rotas GET.
+
+- `/nome` - Onde deverá ser retornado o seu nome
+- `/idade` - Onde deverá ser retornada a sua idade
+- `/hobbie` - Onde deverá ser retornado um hobbie seu
