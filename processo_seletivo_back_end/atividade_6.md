@@ -90,7 +90,7 @@ Por padrão, quando acessamos qualquer site pelo navegador, toda informação vi
 router.get(
     '/',
     (req, res) => {
-        const mensagem = 'Olá mundo';
+        const mensagem = 'Olá mundo'
         res.send(mensagem)
     }
 )
@@ -122,7 +122,7 @@ const router = express.Router();
 router.get(
     '/',
     (req, res) => {
-        const mensagem = 'Olá mundo';
+        const mensagem = 'Olá mundo'
         res.send(mensagem)
     }
 )
